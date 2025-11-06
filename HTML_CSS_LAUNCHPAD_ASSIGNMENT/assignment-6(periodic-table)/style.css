@@ -1,0 +1,35 @@
+#periodic-heading {
+  text-align: center;
+  font-weight: bolder;
+}
+
+#main-div-one {
+  border: black solid;
+  border-width: 2px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ .element {
+  display: block;
+  width: 65px;
+  height: 40px;
+  margin: 2px;
+  background-color: lightblue;
+  text-align: center;
+  line-height: 25px;
+  font-size: larger;
+  border: 1px solid black;
+  border-width: 2px;
+}
+
+.empty {
+  border: black solid;
+  border-width: 2px;
+  height: 40px;
+  width: 1196px;
+  margin: 2px;
+  background-color: white;
+  margin-left: 0px;
+  margin-right: 0px;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <h1>Chapter # 7 - Forms</h1>
+
+    <form>
+      <fieldset>
+        <legend>Your Details:</legend>
+        <label
+          >Name:
+          <input type="text"/>
+          <br /><br />
+          <label
+            >Email:
+            <input type="email" />
+          </label>
+        </label>
+      </fieldset>
+
+      <br />
+
+      <fieldset>
+        <legend>Your Review:</legend>
+        <p>
+          How did you hear about us?
+          <select name="sites">
+            <option value="google">Google</option>
+            <option value="youtube">YouTube</option>
+            <option value="facebook">Facebook</option>
+            <option value="website">Our Website</option>
+            <option value="whatsapp">Whatsapp</option>
+          </select>
+        </p>
+
+        <p>
+          Would you visit again?<br />
+          <input id="answer" type="radio" name="answer" value="Yes" />
+          <label for="yes">Yes</label>
+
+          <input id="answer" type="radio" name="answer" value="no" />
+          <label for="no">No</label>
+
+          <input id="answer" type="radio" name="answer" value="Maybe" />
+          <label for="Maybe">Maybe</label>
+        </p>
+
+        <p>Comments:</p>
+        <textarea
+          name="comments"
+          rows="4"
+          cols="50"
+          placeholder="Enter your review here..."
+        ></textarea>
+
+        <br /><br />
+        <input type="checkbox" name="updates" value="chekmark">
+        Sign me up for email updates
+        
+        <br />
+
+        <input type="submit" value="Submit review">
+      </fieldset>
+    </form>
+  </body>
+</html>

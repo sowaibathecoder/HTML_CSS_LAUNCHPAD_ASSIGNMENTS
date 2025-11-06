@@ -1,0 +1,21 @@
+.nav-div {
+  background-color: rgba(31, 185, 31, 0.956);
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 15px;
+  height: 88px;
+  display: flex;
+}
+
+.logo-img {
+  margin-left: 25px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  width: 130px;
+  height: 65px;
+}
+
+pre {
+  font-size: x-large;
+  padding;
+}
